@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (flash)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>Manufacturer : Adobe / Macromedia</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Year of Release : 1996</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>OS : Windows, macOS, Linux, Chrome OS</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>Platform : Web browsers and ActiveX-based software</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Type : Runtime system and browser extension</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>License : Freeware</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Written in : C++</text>
+			</text>
+	
+		</view>
+	</feature>
+	
+</theme>

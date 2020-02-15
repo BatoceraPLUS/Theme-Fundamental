@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (pc98)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+
+	<feature supported="carousel">
+		<view name="system">
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+
+			<text name="console_notes" extra="true">
+				<text>The PC-9800 series (Japanese: PC-9800, Hepburn: P? Sh? Ky?sen Happyaku Shir?zu), commonly shortened to PC-98 or 98, is a lineup of Japanese 16-bit and 32-bit personal computers manufactured by NEC from 1982 through 2000. The platform established NEC's dominance in the Japanese personal computer market and by 1999.</text>
+			</text>
+
+			<text name="release_date" extra="true">
+				<text>Release Date: October 1982</text>
+			</text>
+
+			<text name="developer" extra="true">
+				<text>Developer: Nippon Electric (NEC)</text>
+			</text>
+
+			<text name="cpu" extra="true">
+				<text>CPU: 8086 @ 5 MHz and higher</text>
+			</text>
+
+			<text name="memory" extra="true">
+				<text>Memory: 128 kb and higher</text>
+			</text>
+
+			<text name="graphics" extra="true">
+				<text>Operating system N88-BASIC(86), CP/M-86, MS-DOS, Windows, OS/2, PC-UX</text>
+			</text>
+
+			<text name="sound" extra="true">
+				<text>Sound Chip : Internal beeper, FM Sound, PCM</text>
+			</text>
+
+			<text name="media" extra="true">
+				<text></text>
+			</text>
+		</view>
+	</feature>
+
+</theme>

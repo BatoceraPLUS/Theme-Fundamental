@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (openbor)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>O OpenBOR é um mecanismo de jogos de rolagem lateral baseado em sprite sem royalties. Desde um começo humilde em 2004, ele se tornou o mecanismo mais versátil, fácil de usar e poderoso do tipo que você encontrará em qualquer lugar. O OpenBOR é otimizado para jogos com estilo de rolagem lateral (Double Dragon, Streets of Rage, Final Fight), mas acomoda facilmente qualquer tipo de estilo de jogo e conjunto de recursos que você possa imaginar.
+
+Quer tentar sua mão na criação de jogos? Abra um dos módulos já existentes e mexa - a comunidade está aqui para ajudá-lo.
+
+Pronto para fazer algo de sua preferência? Junte algumas imagens e pronto!
+
+Sentindo-se ambicioso? Mergulhe no mecanismo de script embutido e na suíte gráfica para criar uma obra-prima que rivaliza com as produções Triple-A mais estranhas. Venda se puder!</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 2004</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Homebrew</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>Best-Selling : Beats of Rage</text>
+			</text>
+			
+			<text name="memory" extra="true">
+			     <text>Source : https://github.com/DCurrent/</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>OS : Linux, DOS, Windows, Android</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Platform : PC, Dreamcast, PlayStation 2, Xbox, PSP, Wii</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>media : Custon Games</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

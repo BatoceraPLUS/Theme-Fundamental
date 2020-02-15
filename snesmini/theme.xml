@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (snesmini)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>Super Nintendo Entertainment System: Super NES Classic Edition, known as Nintendo Classic Mini: Super Nintendo Entertainment System in Europe and Australia and the Nintendo Classic Mini: Super Famicom, in Japan, and also colloquially as the SNES Mini or SNES Classic, is a dedicated home video game console released by Nintendo, which emulates the Super Nintendo Entertainment System.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: September 2017</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 4× ARM Cortex-A7</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 256 MB of DDR3 RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 	Mali-400 MP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Storage: 512 MB NAND flash memory</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Internal flash memory</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

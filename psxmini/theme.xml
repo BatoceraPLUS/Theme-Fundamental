@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (psxmini)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The PlayStation Classic is a dedicated video game console by Sony Interactive Entertainment that emulates games originally released on its 1994 PlayStation console. It was announced in September 2018 at the Tokyo Game Show, and released on December 3, 2018, the 24th anniversary of the release of the original. The console has been compared to competitor Nintendo's prior releases of the NES Classic Edition and Super NES Classic Edition mini consoles.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 2018</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Sony Interactive Entertainment</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>System-on-chip used: MediaTek MT8167a, Quad-Core ARM Cortex-A35</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 1 GB of DDR3 RAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Power VR GE8300</text>
+                        </text>
+
+			<text name="sound" extra="true">
+				<text>Storage: 16 GB eMMC Flash</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Internal flash memory</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

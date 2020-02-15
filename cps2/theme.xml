@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (Capcom Play System II)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>A CP System II ( CP システムII Shipi shisutemu TSU ) ou DPC-2 é uma placa de sistema arcada que Capcom utilizado pela primeira vez em 1993 por Super Street lutador II .
+Foi o sucessor do hardware de arcade anterior do CP System e Capcom Power System Changer e foi sucedido pelo hardware do CP System III em 1996...</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Data de lançamento: setembro de 1993</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Desenvolvedor: Capcom</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>Processador: Capcom DL-1525, 16 MHz (secundário, Kabuki DL-030P, 8 MHz</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memória: 1329 KN( 1 MB FPM DRAM, 304 KB SRAM )</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Placa gráfica: Processadores gráficos CPS-A e CPS-B @ 16 MHz, 32 bits, 4096 cores na tela</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Som: Q1 QSound Processor</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Mídia: Cartucho ROM</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (neogeox)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Neo Geo X (NGX) is a handheld video game console manufactured by Tommo, licensed by SNK Playmore. Information about the Neo Geo X was first reported in January 2012 and later confirmed in March. It is the first Neo Geo system to be released since the discontinuation of the brand in 2004 and the third Neo Geo handheld device, following the 1999 release of the Neo Geo Pocket Color, which was supported until 2001.
+
+The Neo Geo X features games that were on the popular original Neo Geo (the MVS/AES) hardware, and comes built-in with 20 original Neo Geo games. Additional titles were available on game cards.
+
+The system was released on December 18, 2012 as part of a bundle called the "Neo Geo X Gold Limited Edition", which includes a docking station, an arcade stick, and a bonus game card. The docking station is modeled after the original Neo Geo AES console and is used for charging the handheld as well as connecting it to a television. The arcade stick is a replica of the original Neo Geo AES arcade stick that can be used as a controller when the handheld is connected to a TV through the docking station.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: December 18, 2012</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: SNK Playmore and 	Tommo - Blaze</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: XBurst a 1 GHz ( MIPS )</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 512 MB RAM DDR2</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Vivante GC860 </text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Storage: SanDisk 2GB Micro SD internal flash memory</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: SD Card</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

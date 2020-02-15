@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (Fairchild Channel F)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Fairchild Channel F, short for "Channel Fun,"was the first programmable ROM cartridge-based video game console, and the first console to use a microprocessor. It was released by Fairchild Camera and Instrument in November 1976 across North America at a retail price of US$169.95. It was also released in Japan (チャンネル F) in October the following year.It was originally named "Video Entertainment System," but when Atari, Inc. released its Video Computer System the next year, Fairchild changed the name for its machine, although they continued to use the old name alongside it. By 1977, the Fairchild Channel F had sold about 250,000 units, trailing behind sales of the VCS.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release date:  November 1976</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Fairchild Camera and Instrument</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU : Fairchild F8 @ 1.79 MHz (PAL 2.22 MHz)</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>RAM : 64 bytes, VRAM : 2 kB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Resolution : 128x64, 8 colors</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Audio : 500 Hz, 1 kHz and 1.5 kHz tones (can be modulated)</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media : ROM Cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

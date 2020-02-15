@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (msx2)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>MSX, the japonese home micro standard using MSX-DOS 1 from Microsoft is evolving in 1988 with ASCII MSX-DOS 2. The MSX 2 comes out in 1985 and can display graphics up to 512 x 212 pixels with 256 colors. It incorporates scrolling hardware accelerator functions, and supports an 8-channel FM-PAC sound extension with library.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 1985/1988</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Microsoft Japan, Sony</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Zilog Z80</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 8-512 KB</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: Texas Instruments TMS9918</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: General Instrument AY-3-8910</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Floppy disk, Datasette, Cartridge</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

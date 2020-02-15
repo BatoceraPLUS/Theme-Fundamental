@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (n64dd)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>The Nintendo 64DD (ウ ン テ ン ド ウ 64DD, Nintendō Roku Jū Yon DD) ("DD" being short for "Disk drive" and originally "Dynamic Drive") was a peripheral to the Nintendo 64 console. It was plugged into the N64 through the EXTension Port that It was located on the underside of the console and allowed the N64 to use proprietary 64 MB capacity magnetic disks to increase data storage capacity. Although it was announced before the release of N64, 64DD development was slow. It was a commercial flaw and was never released in either the US or Europe.</text>
+		    </text>
+			
+			<text name="release_date" extra="true">
+				<text>Release date: JP/December 1, 1999</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo, Alps Electric</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: 64-bit NEC VR4300</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 36 megabit ROM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: 64-bit SGI RCP</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Magnetic disk (64 MB)</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		Fundamental (snesmsu-1)
+version:		2.0
+author:			Caetano Ramos
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../fundamental.xml</include>
+	
+	<view name="system, basic, grid">
+		<image name="logo">
+			<path>./logo.svg</path>
+		</image>
+	</view>
+	
+	<feature supported="carousel">
+		<view name="system">	
+			<image name="console" extra="true">
+				<path>./console.png</path>
+			</image>
+	
+			<text name="console_notes" extra="true">
+				<text>Unveiled in 1991, the Super Disc System is the prototype of a Super Nintendo including a CD-ROM. Equipped with as MSU1 expansion chip it reads Fll Motion Video and CD quality music without making any other improvements. It was developed in partnership by Sony during 3 years before Nintendo because of a disagreement on the license fees of the games stop the project. An error that will lead Sony to continue alone to crate its Playstation. Rediscovered in 2015, Bejamin Heckendor will finish repairing the prototype in 2017. Since integrate emulators, many non official games are emerging.</text>
+			</text>
+		
+			<text name="release_date" extra="true">
+				<text>Release Date: 1991</text>
+			</text>
+			
+			<text name="developer" extra="true">
+				<text>Developer: Nintendo and Sony</text>
+			</text>
+			
+			<text name="cpu" extra="true">
+				<text>CPU: Ricoh 5A22</text>
+			</text>
+			
+			<text name="memory" extra="true">
+				<text>Memory: 128 KB DRAM, 64 KB SRAM</text>
+			</text>
+			
+			<text name="graphics" extra="true">
+				<text>Graphics: 16 bit PPU</text>
+			</text>
+			
+			<text name="sound" extra="true">
+				<text>Sound: Sony SPC700 and Sony DSP</text>
+			</text>
+			
+			<text name="media" extra="true">
+				<text>Media: Cartridge and CD</text>
+			</text>
+		</view>
+	</feature>
+	
+</theme>
